@@ -8,7 +8,7 @@ import Navbar from '../components/Navbar';
 import BiggestPrice from "../assests/images/biggest-price.png"
 import Countdown from 'react-countdown';
 import { Timer } from '../components/Timer';
-// import BingoText from '../assests/images/bingo.png'
+import Bingo from '../assests/images/Bingo2.png'
 
 
 const winners = [
@@ -30,10 +30,10 @@ function Home() {
     <container>
         <Navbar />
         
-            <div className='flex absolute left-96 align-middle bg-transparent flex-1 h-64 px-8 py-10 text-center justify-center w-64 -z-8'>
+            <div className='flex absolute left-96 self-center bg-transparent flex-1 h-64 px-8 mx-4 py-10 text-center justify-center w-i/2 -z-10 mt-48'>
                 {/* <h2 className='font-Playfair stroke-orange-50 text-9xl text-white text-center  '>Bingo</h2> */}
 
-                <img src="https://storage.googleapis.com/ibw-blog/media/a7/401c640db3832df1e1d434a42987e7.jpeg" alt="Bingo" width="100%" height="100%"/>
+                <img src={Bingo} alt="Bingo" width="100%" height="100%"/>
             </div>
         <div className='flex-col mt-48'>
 

@@ -109,9 +109,9 @@ function AllBingos() {
                 <div style={{display: "flex", flexDirection: "row", justifyContent: "space-between", padding: 10}}>
 
                 <Typography sx={{  fontSize: 24, fontFamily: "Playfair"}}>
-                Trending Bingos
+                Trending Bingos'
                 </Typography>
-                <Typography sx={{ fontSize: 20, fontFamily: "Playfair"}}>
+                <Typography sx={{ fontSize: 18, fontFamily: "Playfair"}}>
                 See All Bingos
                 </Typography>
                 </div>

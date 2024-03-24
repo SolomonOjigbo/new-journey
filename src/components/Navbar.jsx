@@ -29,7 +29,7 @@ const Navbar = () => {
             Play
             </NavLink>
             <NavLink
-            to="/association"
+            to="#"
             className="bg-green-300 border-0 rounded-md py-2 px-3 font-Playfair"
             >
             Association
