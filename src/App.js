@@ -5,11 +5,12 @@ import AllBingos from "./pages/AllBingos";
 import Play from "./pages/Play";
 import Association from "./pages/Association";
 import Navbar from "./components/Navbar";
+import PageLayout from "./layouts/PageLayout";
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <PageLayout>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/all-bingos" element={<AllBingos />} />
@@ -17,6 +18,7 @@ function App() {
         <Route path="/association" element={<Association />} />
       
       </Routes>
+      </PageLayout>
     </Router>
   );
 }

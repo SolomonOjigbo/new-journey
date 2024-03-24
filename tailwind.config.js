@@ -6,7 +6,13 @@ module.exports = {
       'bg-pattern': "url('assests/images/bg-image1.png')",
       'bg-texture': "url('assests/images/bg-image2.jpeg')",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Playfair: ['Playfair Display', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        Sharetech: ['Share Tech', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
